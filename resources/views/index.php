@@ -74,7 +74,7 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
 <body>
 <div class="login">
 	<h1>Login</h1>
-    <form method="post">
+    <form method="post" action="">
     	<input type="text" name="usuario" placeholder="E-mail ou CPF" required="required" />
         <input type="password" name="senha" placeholder="Senha" required="required" />
         <button type="submit" class="btn btn-primary btn-block btn-large">Entrar</button>
